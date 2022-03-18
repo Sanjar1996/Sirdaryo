@@ -23,7 +23,7 @@ SECRET_KEY = 'django-insecure-g5pj!)st9z91m+vh)*x)8%h6n&a=a0#rst%h!sii%$%igb$khx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['sirdaryo-urmon.uz', 'www.sirdaryo-urmon.uz']
 CSRF_TRUSTED_ORIGINS = ['https://sirdaryo-urmon.uz', 'https://www.sirdaryo-urmon.uz']
 
 # Application definition
@@ -89,11 +89,11 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'jizzax_db',
-        'USER': 'jizzax_user',
-        'PASSWORD': 'jizzax_pass',
+        'NAME': 'sirdaryo_db',
+        'USER': 'sirdaryo_user',
+        'PASSWORD': 'sirdaryo_pass',
         'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'PORT': '5433',
     }
 }
 
