@@ -1,0 +1,10 @@
+Django
+django-active-link
+django-ckeditor
+django-crispy
+django-parler
+environs
+gunicorn
+Pillow
+psycopg2-binary
+whitenoise
